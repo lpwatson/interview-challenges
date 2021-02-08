@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(229, 233, 244);
+  background-color: rgb(212, 219, 235);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,7 +17,7 @@ body {
 }
 
 .Container {
-  align-items: center;
+  align-items: left;
   background-color: rgb(62, 126, 184);
   border-radius: 25px;
   color: white;
@@ -26,3 +26,205 @@ body {
   font-weight: bold;
   padding: 40px;
 }
+
+.InnerContainer-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.InnerContainer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.InnerContainer-row-border {
+  display: flex;
+  flex-direction: row;
+  border-color: grey;
+  flex-wrap: wrap;
+}
+
+.InnerContainer-column-border {
+  display: flex;
+  border-radius: 25px;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 30px;
+  margin: 20px;
+}
+
+.Container-white {
+  align-items: left;
+  background-image: linear-gradient(white, rgb(205, 215, 243));
+  border-radius: 40px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 40px;
+  margin-top: -60px;
+}
+
+.ControlsContainer {
+  position: relative;
+  background-image: linear-gradient(rgb(215, 223, 243), rgb(205, 215, 243));
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: auto;
+  margin-top: -183px;
+  flex-wrap: wrap;
+}
+
+.name-container {
+  justify-content: flex-start;
+  flex:1
+}
+
+.notification-container {
+  justify-content: center;
+  border-radius: 25px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(83, 140, 193);
+  display: inline-block;
+}
+
+.notification-icon {
+  margin: 25px;
+}
+
+.search {
+  border-radius: 25px;
+  background-color: rgb(83, 140, 193);
+  outline: none;
+  color: white;
+  font-size: 30px;
+  padding: 40px;
+  margin: 30px;
+  height: 50px;
+}
+
+.date {
+  color: rgb(103, 164, 221);
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+  color:white;
+}
+
+.ellipsis {
+  justify-content: flex-end;
+}
+
+.smiley-face {
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: rgb(83, 140, 193);
+  display: inline-block;
+  padding: 30px;
+  margin: 7px;
+  margin-bottom: 100px;
+  text-align: center;
+  height: 125px;
+  width: 125px;
+}
+
+span.emoji {
+  font-size: 60px;
+}
+
+.heart-icon-container {
+  background-color: rgb(234, 138, 96);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.person-icon-container {
+  background-color: rgb(83, 140, 193);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.person-icon {
+  color: white;
+  margin-left: 5px;
+}
+
+.bottom-icon-container {
+  background-color: rgb(234, 101, 128);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.exercises-icon {
+  font-size: 50px;
+  position: relative;
+  right: -7%;
+}
+
+.home-icon-container {
+  color: rgb(83, 140, 193);
+  margin: 50px 50px 50px 100px;
+}
+
+.other-icons-container {
+  color: grey;
+  margin: 50px;
+}
+
+.last-icon-container {
+  color: grey;
+  margin: 50px 50px 50px 30px;
+  flex-grow: 2;
+}
+
+.exercises-text {
+  display:flex;
+  justify-content: space-between;
+  min-width: 350px;
+  height: 60px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+
+.exercises-ellipsis {
+  color: rgb(167, 163, 163);
+}
+
+p {
+  color: rgb(167, 163, 163);
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
